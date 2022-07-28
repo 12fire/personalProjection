@@ -1,0 +1,186 @@
+
+
+body {
+    background: url(../images/360b1d474ab3abf449ddfea47561711b.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* overflow: hidden; */
+
+}
+
+.box {
+    width: 700px;
+    height: 550px;
+    background: rgba(255, 255, 255, 0.5);
+    overflow: hidden;
+    margin: 70px auto;
+    border-radius: 20px;
+}
+
+
+
+.box h1 {
+    width: 400px;
+    margin: 20px auto;
+    text-align: center;
+    height: 50px;
+    font-weight: 400;
+}
+
+.box h1 button {
+    line-height: 50px;
+    font-size: 26px;
+    width: 90px;
+}
+
+.box h1 button:first-child {
+    float: left;
+}
+
+.box h1 button:nth-child(2) {
+    float: right;
+}
+
+.box h1 .btn_color {
+    border-bottom: 2px solid #fff;
+}
+
+.box .login {
+    /* display: none; */
+    width: 400px;
+    height: 100%;
+    margin: auto;
+
+}
+
+
+.box .login ul li {
+    border-bottom: 2px solid #e3e8f0;
+    height: 55px;
+    line-height: 55px;
+    width: 100%;
+    font-size: 20px;
+    margin: 30px 0;
+}
+
+
+.box .login ul li input {
+    margin-left: 20px;
+    height: 100%;
+    width: 300px;
+    font-size: 20px;
+}
+
+.login .yzm {
+    width: 100%;
+    height: 40px;
+    /* background-color: pink; */
+}
+
+.login .yzm input {
+    width: 150px;
+    height: 100%;
+    font-size: 20px;
+    border-bottom: 2px solid #e3e8f0;
+    margin-left: 15px;
+}
+
+.login .yzm img {
+    width: 150px;
+    height: 100%;
+    float: right;
+}
+
+.box .login p {
+    margin: 25px 0;
+    height: 30px;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+
+}
+
+.box .login>button {
+    margin-top: 30px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    line-height: 55px;
+    height: 55px;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 24px;
+    border-radius: 27.5px;
+}
+
+/* 注册样式 */
+.box .register {
+    display: none;
+    width: 400px;
+    height: 100%;
+    margin: auto;
+}
+
+.box .register ul li {
+    border-bottom: 2px solid #e3e8f0;
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.box .register ul li input {
+    margin-left: 20px;
+    height: 100%;
+    width: 300px;
+    font-size: 20px;
+}
+
+.box .register ul .last_li input {
+    width: 255px;
+}
+
+.box .register .yzm {
+    width: 100%;
+    height: 40px;
+    /* background-color: pink; */
+}
+
+.box .register .yzm input {
+    width: 150px;
+    height: 100%;
+    font-size: 20px;
+    border-bottom: 2px solid #e3e8f0;
+    margin-left: 15px;
+}
+
+.box .register .yzm img {
+    width: 150px;
+    height: 100%;
+    float: right;
+}
+
+.box .register p {
+    height: 30px;
+    text-align: center;
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+.box .register button {
+    margin-top: 25px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    line-height: 55px;
+    height: 55px;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 24px;
+    border-radius: 27.5px;
+}
+
+.icon a {
+    font-family: 'icomoon';
+    color: #e3e8f0;
+}

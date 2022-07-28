@@ -1,0 +1,183 @@
+/* .nav {
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.nav .nav_right {
+    position: relative;
+    float: right;
+    margin-right: 200px;
+    height: 50px;
+    line-height: 50px;
+}
+
+.nav .nav_right .loginout {
+    position: absolute;
+    width: 60px;
+    bottom: -50px;
+    left: 10px;
+    text-align: center;
+    background-color: rgba(142, 249, 252, 0.7);
+    display: none;
+}
+
+.nav .nav_right .loginout a {
+    color: black;
+    font-weight: 700;
+}
+
+.nav .nav_left {
+    float: left;
+    margin-left: 200px;
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+}
+
+.nav .nav_right a {
+    font-family: 'icomoon';
+    color: #fff;
+} */
+
+.main {
+    width: 100%;
+    height: 600px;
+    /* background-color: pink; */
+}
+
+.main .main_left {
+    display: inline-block;
+    width: 300px;
+    background-color: #a2a0a0;
+}
+
+.main .main_left ul li {
+    width: 100%;
+    /* height: 60px; */
+    line-height: 60px;
+    font-size: 20px;
+
+    text-align: center;
+}
+
+.main .main_left ul li:hover {
+    background-color: #ff6700;
+}
+
+/* 点击时，给左边导航栏加上背景颜色 */
+.main .main_left ul .changeColor {
+    background-color: #ff6700;
+}
+
+.main .main_left ul li a {
+    color: #fff;
+}
+
+.main_right {
+    display: inline-block;
+    width: 900px;
+    height: 100%;
+    background-color: #f5f5f5;
+    vertical-align: top;
+    margin-top: 30px;
+    margin-left: 40px;
+    /* border: 1px solid pink; */
+}
+
+.main_right .new_homework {
+    display: none;
+    width: 400px;
+    height: 400px;
+    margin: 60px auto;
+    border: 3px solid #b8e5f7;
+    border-radius: 10px;
+    /* text-align: center; */
+}
+
+.main_right .new_homework ul li {
+    margin: 60px 50px;
+    width: 300px;
+    border-bottom: 2px solid #000;
+
+}
+
+.main_right .new_homework ul li input {
+    font-size: 18px;
+}
+
+.main_right .new_homework button {
+    padding: 15px 30px;
+    background-color: #a2a0a0;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 30px;
+    margin-left: 150px;
+}
+
+.main_right .history_homework {
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.main_right .history_homework ul {
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+}
+
+.main_right .history_homework ul li {
+    width: 700px;
+    margin: 30px 80px;
+    height: 60px;
+    line-height: 60px;
+    border-bottom: 3px solid #000;
+}
+
+.main_right .history_homework ul li span {
+    float: left;
+
+    width: 320px;
+    color: #000;
+    font-size: 16px;
+}
+
+.main_right .history_homework ul li div {
+    float: right;
+    width: 350px;
+    height: 100%;
+}
+
+.main_right .history_homework ul li div a {
+    border: 1px solid #000;
+    color: #f5f5f5;
+    background-color: #a2a0a0;
+    padding: 5px 10px;
+    margin-left: 20px;
+}
+
+.main_right .history_homework ul li div a:hover {
+    background-color: #ff6700;
+}
+
+.main_right .history_homework ul li div i {
+    font-size: 12px;
+}
+
+.main_right .student_list {
+    display: none;
+}
+
+.main_right .history_homework>div {
+    display: none;
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+}
+
+.main_right .history_homework div ol li {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+}

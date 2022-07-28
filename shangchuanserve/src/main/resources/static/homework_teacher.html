@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/common_css.css">
+    <link rel="stylesheet" href="css/homeworkTeacher_css.css">
+    <script src="jquery/jquery.min.js"></script>
+    <script src="js/homeworkTeacher_js.js"></script>
+</head>
+
+<body>
+    <div class="nav">
+        <div class="nav_left">
+            <span>课代表端</span>
+        </div>
+        <div class="nav_right">
+
+            <a href="javaScript:void(0);">
+                <i></i>
+                <span>XXX</span>
+            </a>
+            <div class="loginout">
+                <a href="javaScript:void(0);">退出</a>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="main_left">
+            <ul>
+                <li><a href="javascript:void(0);">创建作业</a></li>
+                <li><a href="javascript:void(0);">历史作业</a></li>
+                <li><a href="javascript:void(0);">课程学生名单</a></li>
+            </ul>
+        </div>
+        <div class="main_right">
+            <div class="new_homework">
+                <ul>
+                    <!-- homeworkName,format,ddl -->
+                    <li><input type="text" placeholder="作业名"></li>
+                    <li><input type="text" placeholder="作业命名格式"></li>
+                    <li><input type="datetime-local" placeholder="截止时间"></li>
+                </ul>
+                <button>确定</button>
+            </div>
+            <div class="history_homework">
+                <ul>
+                    <!-- <li>
+                        <span>作业一</span>
+                        <div>
+                            <a href="javascript:void(0);">修改</a>
+                            <a href="javascript:void(0);">删除</a>
+                            <a href="javascript:void(0);">查看</a>
+                            <i>2022/6/6 17:55</i>
+                        </div>
+                    </li> -->
+                </ul>
+                <div>
+                    <ol>
+                        <div class="fanhui"><a href="javascript:void(0)">←-</a></div>
+                        <div class="upload" homeworkId=""><a href="javascript:void(0)">下载全部</a></div>
+                    </ol>
+
+                </div>
+            </div>
+            <div class="student_list">
+                <ul>
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    name: test
+    url: jdbc:mysql://localhost:3306/shangchuanserver
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  servlet:
+    multipart:
+      max-file-size: 100MB
+  cache:
+    type: redis
+  redis:
+    host: localhost
+    port: 6379
+
+
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    map-underscore-to-camel-case: false

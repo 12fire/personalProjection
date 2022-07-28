@@ -1,0 +1,192 @@
+/* .nav {
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.nav .nav_right {
+    position: relative;
+    float: right;
+    margin-right: 200px;
+    height: 50px;
+    line-height: 50px;
+}
+
+.nav .nav_right .loginout {
+    position: absolute;
+    width: 60px;
+    bottom: -50px;
+    left: 10px;
+    text-align: center;
+    background-color: rgba(142, 249, 252, 0.7);
+    display: none;
+}
+
+.nav .nav_right .loginout a {
+    color: black;
+    font-weight: 700;
+}
+
+.nav .nav_left {
+    float: left;
+    margin-left: 200px;
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+}
+
+.nav .nav_right a {
+    font-family: 'icomoon';
+    color: #fff;
+} */
+
+.main {
+
+    width: 1200px;
+    height: 550px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.main .main_tab_list ul {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    border-bottom: 4px solid skyblue;
+    /* margin: 0 30px; */
+}
+
+.main .main_tab_list ul li {
+    margin-left: 40px;
+    float: left;
+    font-size: 20px;
+    /* display: none; */
+}
+
+.current {
+    display: none;
+}
+
+.main_tab_con .item {
+    width: 100%;
+}
+
+.homework,
+.add {
+    position: relative;
+    float: left;
+    width: 250px;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 39px;
+    border-radius: 10px;
+    background-color: rgba(1, 251, 68, 0.5);
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.homework p {
+    position: absolute;
+    width: 180px;
+    font-size: 16px;
+    left: 35px;
+    top: 70px;
+    word-wrap: break-word;
+    word-break: normal;
+}
+
+.mark {
+    float: left;
+    width: 250px;
+    height: 200px;
+    opacity: 0.6;
+}
+
+.item .add p {
+    position: absolute;
+    width: 180px;
+    font-size: 16px;
+    left: 35px;
+    top: 70px;
+
+    word-wrap: break-word;
+    word-break: normal;
+    font-size: 65px;
+    color: #fff;
+    font-family: 'icomoon';
+}
+
+
+
+.bigmark {
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    position: fixed;
+    display: none;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0.9;
+}
+
+.bigmark .addCourse {
+    position: absolute;
+    width: 400px;
+    height: 250px;
+    background-color: #fff;
+    opacity: 1;
+    /* display: none; */
+    z-index: 20;
+    border-radius: 5px;
+    /* text-align: center; */
+}
+
+.addCourse .addCourse_top {
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid #000;
+}
+
+.addCourse .addCourse_top a {
+    float: right;
+    font-family: 'icomoon';
+    color: #000;
+    font-size: 30px;
+    line-height: 50px;
+    margin-right: 15px;
+
+}
+
+.addCourse .addCourse_top span {
+    float: left;
+    color: #000;
+    font-size: 20px;
+    line-height: 50px;
+    margin-left: 15px;
+}
+
+.addCourse .addCourse_bottom {
+    width: 350;
+    margin: 40px 25px;
+    margin-top: 70px;
+
+}
+
+.addCourse .addCourse_bottom input {
+    width: 100%;
+    height: 30px;
+    font-size: 18px;
+    border-bottom: 2px solid #000;
+}
+
+.addCourse button {
+    /* width: 50px; */
+    /* height: 30px; */
+    line-height: 50px;
+    padding: 0 40px;
+    background-color: aliceblue;
+    margin-left: 150px;
+}
